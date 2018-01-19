@@ -1,0 +1,101 @@
+.logo{
+  width :200px;
+}
+.clearfix
+{
+  clear: both;
+}
+.fright
+{
+  float:right;
+}
+.fleft
+{
+  float:left;
+}
+body{
+  font-family:'lato',sans-serif;
+  background-color: #442D4B;
+  color: white;
+
+}
+header{
+  padding: 40px;
+  height: 40px;
+}
+footer{
+  background-color: "#000000";
+  height: 80px;
+}
+header ul li{
+  display: inline-block;
+padding:15px;
+height: 15px;
+}
+
+header ul li a{
+  color: #ffcb59;
+  text-decoration: none;
+}
+.add-movie {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 48px;
+}
+.add_movie_h2{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+footer .logo {
+    width: 200px;
+    float: right;
+    padding: 20px;
+}
+header {
+    padding: 25px;
+}
+
+form ul li {
+    padding: 13px;
+}
+
+input,textarea {
+    border: 1px solid white;
+    background: #442d4b;
+    display: block;
+    margin: 0 auto;
+}
+label {}
+
+label {}
+
+ul li label {
+    padding: 2px;
+}
+
+input[type="button"] {
+    background: red;
+    color: white;
+}
+label {}
+
+label {}
+
+ul li label {
+    padding: 2px;
+}
+
+input[type="button"] {
+    background: red;
+    color: white;
+}
+ul li label {
+    padding: 2px;
+}
+
+input[type="button"] {
+    background: red;
+    color: white;
+}
