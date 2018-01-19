@@ -13,6 +13,7 @@
 {
   float:left;
 }
+form h2 {font-size: 55px;/* display: block; */text-align: center;}
 body{
   font-family:'lato',sans-serif;
   background-color: #442D4B;
@@ -40,8 +41,8 @@ header ul li a{
 .add-movie {
     width: 500px;
     margin: 0 auto;
-    text-align: center;
     padding: 48px;
+        white-space: nowrap;
 }
 .add_movie_h2{
   text-align: center;
@@ -66,36 +67,32 @@ input,textarea {
     background: #442d4b;
     display: block;
     margin: 0 auto;
-}
-label {}
-
-label {}
-
-ul li label {
-    padding: 2px;
-}
-
-input[type="button"] {
-    background: red;
-    color: white;
-}
-label {}
-
-label {}
-
-ul li label {
-    padding: 2px;
-}
-
-input[type="button"] {
-    background: red;
-    color: white;
+    width:100%;
+    padding-top: 3px;
+    margin-top: 9px;
 }
 ul li label {
     padding: 2px;
 }
 
 input[type="button"] {
-    background: red;
+    background: #ff6c00;
     color: white;
+    width:90px;
+    padding: 6px;
+}
+ul li label {
+    padding: 2px;
+}
+
+ul li label {
+    padding: 2px;
+}
+
+
+.divide
+{
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
 }
